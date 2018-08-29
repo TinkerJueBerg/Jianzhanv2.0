@@ -1,0 +1,68 @@
+@charset "utf-8";
+<html> 
+<head> 
+<title> css </title> 
+</head>
+<style>
+
+body
+{
+
+}
+#fr
+
+	{
+    position:relative;
+	top:-700px;
+	right:-930px;
+	font-size:23px;
+    border-radius: 10px;  
+    color:#01DFD7;
+    font-family:行者笔记简;
+}
+#fram
+
+	{
+    position:relative;
+	top:-700px;
+	right:-930px;
+	font-size:23px;
+    border-radius: 10px;  
+    opacity:0.5;
+}
+#fra
+
+	{
+    position:relative;
+	top:-710px;
+	right:-930px;
+	font-size:20px;
+	color:#FFF;
+	border:10px;
+    border-radius: 2px;  
+    background-color:#2E9AFE;
+    width:76px;
+    height:40px;
+}
+#frame
+{
+    position:relative;
+	top:-600px;
+	right:-800px;
+	color:#FFF;
+	font-size:30px;
+
+}
+
+#advice
+{
+	 position:relative;
+	top:-420px;
+	right:-730px;
+	font-size:20px;
+	border:0;
+    background-color:transparent;
+    color:#FFF;
+}
+</style>
+</html>

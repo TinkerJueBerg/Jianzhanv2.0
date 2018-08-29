@@ -1,0 +1,54 @@
+@charset "utf-8";
+<html> 
+<head> 
+<title> css </title> 
+</head>
+<style>
+body
+{
+	
+}
+
+#put1 {
+	position:relative;
+    margin: 0;
+    padding: 10px 0;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 17px;               
+    width: 150px;
+    font-size:15px;
+    text-align: center;
+    background-color:#696969;
+    top:-5px;
+    right:-13px;
+    }
+#title1
+{
+    position:relative;
+    text-align:center;
+    color:#D6F9F9;
+    top:-1068px;
+    right:-37px;
+    font-size:90px;
+    font-family: Unrealised ;
+}
+#login1
+{
+    font-size:30px;
+    position:relative;
+    margin:10px;
+    right:-270px;
+    top:-240px;
+    opacity:0.85;
+    background-color:#01A9DB;
+    border-style:ridge;
+    border-width:12px;
+    border-color:#0B2F3A;
+    width:120px;
+    height:120px;
+    border-radius:120px;
+    font-family:行者笔记简;
+}
+
+</style>
+</html>
