@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+<title> mission1</title>
+<link  href="css/c1.css" rel = "stylesheet"  type="text/css">
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="layer-v3.1.1/layer/layer.js" type="text/javascript"></script>
+<script src="js/j1.js" type="text/javascript"></script>
+
+<style>
+form.pos_top
+{
+	position:relative;
+	top:-280px;
+	right:-50px;
+	text-align:center;
+	color:#1C1C1C;
+	font-size:1.2em;
+	font-weight:bold;
+
+}
+p.normal{
+	position:relative;
+	text-align:center;
+	font-weight:bold;
+	color:#489e52;
+	font-size: 2.2em;
+	top:-250px;
+}
+div.right
+{
+	position:relative;
+	right:200px;
+}
+p.font
+{
+	font-family:"Axure Handwriting";
+	color:#0489B1;
+}
+img.up
+{
+	position:relative;
+	top:-15px;
+}
+img.posipic
+{
+	position:relative;
+	width:175px;
+	height:175px;
+	border-radius:100%;
+    right:400px;
+    top:-50px;
+}
+</style>
+</head>
+<body>
+
+
+	<div id = "container"; style = "background-color:#696969;height:1000px "> 
+		
+	<canvas id  ="c"></canvas>
+
+<script src="js/j2.js" type="text/javascript"></script>
+<script type = "text/javascript" src="j1.js"></script>
+
+
+
+
+<form class="pos_top" action=".php" onsubmit="return validateForm()"method="post" >
+
+<h2>
+    
+	<a href="file:///C:/Users/真夜绫也/Desktop/建站/jianzhan-master/daohang.html" id="blogin" onclick="ShowLoginText()"> <img class="posipic" src="g.gif" style="float:right">
+	</a>
+
+	<p class = "font">
+	Username: <input id="put1" type="text" name="userId"  ><br>
+	Password:&#160&#160<input id="put1" type="Password" name="password">
+	
+</p></h2>
+<br>
+<br>
+<div align="center" >
+    <input type="button" id="bLogin" onclick="recall()" value="忘记密码" style="width:85px;height:48px;border-radius:2px;background-color:#848484;border:10px">
+    &#160&#160&#160&#160&#160&#160&#160&#160&#160
+	<input type="button" id="bLogin" onclick="ShowLoginText()" value="注册" style="width:85px;height:48px;order-radius:2px;background-color:#848484;border:10px"></div>
+
+
+
+</form>
+<p class = "normal">Lantern版权布局 @606 </p>
+<p id="title1">LantErn</p>
+</div>
+
+</body>
+</html>

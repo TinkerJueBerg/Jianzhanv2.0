@@ -1,0 +1,39 @@
+@charset "utf-8";
+<html> 
+<head> 
+<title> css </title> 
+</head>
+<style>
+
+body
+{
+background:url(image/picm1.jpg)
+
+}
+img.float
+{
+	
+	position: relative;
+	margin:10px;
+	top:-630px;
+	width:600px;
+	height:400px;
+	transform:rotateY(-40deg);
+	right:100px;
+}
+p.slant
+{
+	transform:rotateY(-90deg);
+	font-size:100px;
+	color:#FBFBFB;
+	position: relative;
+	top:-600px;
+	float:right;
+	right:-500px;
+}
+
+</style>
+
+
+
+</html>
