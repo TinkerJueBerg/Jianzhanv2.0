@@ -1,0 +1,36 @@
+@charset "utf-8";
+<html> 
+<head> 
+<title> css </title> 
+</head>
+<style>
+body
+{
+	
+}
+
+#put1 {
+	position:relative;
+    margin: 0;
+    padding: 10px 0;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 17px;               
+    width: 150px;
+    font-size:15px;
+    text-align: center;
+    background-color:#696969;
+    top:-5px;
+    right:-13px;
+    }
+#title1
+{
+    position:relative;
+    text-align:center;
+    color:#D6F9F9;
+    top:-918px;
+    right:-37px;
+    font-size:90px;
+    font-family: Unrealised ;
+}
+</style>
+</html>
